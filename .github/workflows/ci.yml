@@ -5,7 +5,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Check Versions
       - run: git --version
       - run: node -v
       - run: npm -v
